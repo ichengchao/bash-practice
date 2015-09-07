@@ -1,3 +1,5 @@
 #!/bin/bash
-myself=$0
-cat $myself >./backup.sh
+ls -lR ../>filelist.txt
+tar -czvf filelist.tgz filelist.txt
+rm -rf filelist.txt
+
