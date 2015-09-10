@@ -9,6 +9,6 @@ do
     tmp=`printf "%d" "'$myint"`
     if ((tmp > 47 && tmp < 58))
     then
-        echo $myint
+        echo $myint"test"
     fi
 done
